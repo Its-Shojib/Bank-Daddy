@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./asset/logo.jpg" type="image/x-icon">
-    <title>Bank</title>
+    <title>Login Page</title>
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -18,9 +18,10 @@
         <section class="max-w-screen-xl mx-auto p-4 my-10 md:px-8 lg:px-16">
             <div class="bg-emerald-700 mx-auto text-center h-96 w-5/12 p-5 space-y-8">
                 <h2 class="text-3xl mt-5 text-white font-semibold">Please Login</h2>
-                <input class="p-2 w-9/12" type="email" name="" id="" placeholder="Your Email Address"><br>
-                <input class="p-2 w-9/12" type="password" name="" id="" placeholder="Your Password"><br>
-                <button class="bg-amber-700 hover:bg-cyan-800 px-5 py-3 text-white rounded-lg font-semibold" value="submit">Submit</button>
+                <input class="p-2 w-9/12" type="email" name="" id="email" placeholder="Your Email Address"><br>
+                <input class="p-2 w-9/12" type="password" name="" id="password" placeholder="Your Password"><br>
+                <button id="btn-submit" class="bg-amber-700 hover:bg-cyan-800 px-5 py-3 text-white rounded-lg font-semibold" value="submit">Submit</button>
+                <p id="fall" class="text-red-700 font-medium text-lg"></p>
             </div>
         </section>
 
@@ -28,6 +29,7 @@
     <footer>
 
     </footer>
+    <script src="./Js/login.js"></script>
 </body>
 
 </html>
